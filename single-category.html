@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A Good Restaurant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>A Good Restaurant</h1></a>
+            <p>
+              <img src="images/Michelin.png" alt="Michelin star">
+              <span>Michelin Certified</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:+91 9876543210">
+                <span>9876543210</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+  <div id="call-btn" class="text-center visible-xs">
+    <a class="btn" href="tel:9876543210">
+    <span class="glyphicon glyphicon-earphone"></span>
+    9876543210
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <div class="container" id="main-content">
+    <h2 id="menu-categories-title" class="text-center">Paddu's Specials</h2>
+
+    <div class="text-center">Only served to special customers!</div>
+
+    <section class="row">
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D01</div>
+                <img class="img-responsive" width="250" height="150" src="images/D1.jpg" alt="Item">
+              </div>
+              <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Donuts</h3>
+              <p class="menu-item-details">Freshly baked donuts with sugar sprinkle on them. Filled with cream and delicate-soft flour.</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+  
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D02</div>
+                <img class="img-responsive" width="250" height="150" src="images/D2.jpg" alt="Item">
+              </div>
+              <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Mango with Cream</h3>
+              <p class="menu-item-details">Layered dish with layers of cream, mango slices, mango puree and much more!</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+        <!-- Add after every 2nd menu-item-tile -->
+        <div class="clearfix visible-lg-block visible-md-block"></div>
+  
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D03</div>
+                <img class="img-responsive" width="250" height="150" src="images/D3.jpg" alt="Item">
+              </div>
+              <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Pastry</h3>
+              <p class="menu-item-details">Chocolate Pastry with soft texture bound to melt in mouth.</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+  
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D04</div>
+                <img class="img-responsive" width="250" height="150" src="images/fast.jpg" alt="Item">
+              </div>
+              <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Fries</h3>
+              <p class="menu-item-details">I mean, these are fries.</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+        <!-- Add after every 2nd menu-item-tile -->
+        <div class="clearfix visible-lg-block visible-md-block"></div>
+  
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D05</div>
+                <img class="img-responsive" width="250" height="150" src="images/Coffee.jpg" alt="Item">
+              </div>
+              <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Coffee</h3>
+              <p class="menu-item-details">Strong, aromatic and fresh with a tinge of chef's secret.</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+  
+        <div class="menu-item-tile col-md-6">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="menu-item-photo">
+                <div>D06</div>
+                <img class="img-responsive" width="250" height="150" src="images/Straw.jpg" alt="Item">
+              </div>
+              <div class="menu-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>
+            </div>
+            <div class="menu-item-description col-sm-7">
+              <h3 class="menu-item-title">Strawberry with Cream</h3>
+              <p class="menu-item-details">Layered dish with layers of cream, Strawberry slices, Strawberry puree and much more!</p>
+            </div>
+          </div>
+          <hr class="visible-xs">
+        </div>
+        <!-- Add after every 2nd menu-item-tile -->
+        <div class="clearfix visible-lg-block visible-md-block"></div>
+  
+      </section>
+
+  </div><!--End of main-->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Mon-Fri: 12:45-2 pm, 7:45-9 pm<br>
+          Sat-Sun: Closed<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          C. de Villarroel, 163, L'Eixample,<br>
+          08036 Barcelona, Spain
+          
+          <p><br>* Delivery area within miles near us, with minimum order of $200 plus $30 charge for all deliveries.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best restaurant I've been&nbsp;to! And that's saying a lot, since I've been to many!"</p>
+          <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Good Resto</div>
+    </div>
+  </footer>
+
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
